@@ -43,8 +43,7 @@ main(int, char*[])
 	for(i = 0; i < RUNEMAX; i++)
 		if(counts[i] > 0)
 			Bprint(out, "%ulld ", counts[i]);
-			
-	Bprint(out, "\n");
+
 	Bflush(out);
 	
 	// Clean up

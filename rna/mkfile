@@ -1,0 +1,14 @@
+</$objtype/mkfile
+
+TARG = rna
+
+OFILES = main.$O \
+
+HFILES = #unused
+
+</sys/src/cmd/mkone
+
+demo:V: all
+	# Expecting output: GAUGGAACUUGACUACGUAAAUU
+	echo -n GATGGAACTTGACTACGTAAATT | $O.out
+	echo

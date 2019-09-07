@@ -16,5 +16,12 @@ Individual problems:
 
 ## Run
 
+Individual problems:
+
 	% $O.out
 
+## Demo
+
+Everything:
+
+	% mk demo
