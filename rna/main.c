@@ -7,7 +7,7 @@
 
 	Implementation notes:
 	
-	
+	DNA is explicitly validated. 
 */
 
 // Determine if input rune is valid rna
