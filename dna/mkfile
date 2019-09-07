@@ -1,0 +1,9 @@
+</$objtype/mkfile
+
+TARG = dna
+
+OFILES = main.$O \
+
+HFILES = #unused
+
+</sys/src/cmd/mkone
