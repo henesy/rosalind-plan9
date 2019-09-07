@@ -7,3 +7,7 @@ OFILES = main.$O \
 HFILES = #unused
 
 </sys/src/cmd/mkone
+
+demo:V: all
+	# Expecting output: 20 12 17 21 
+	echo -n AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC | 8.out

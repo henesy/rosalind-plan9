@@ -18,6 +18,8 @@ nuke:V:		nuke-dirs
 
 installall:V:	installall-dirs
 
+demo:V:	demo-dirs
+
 %-dirs:V:
 	for(i in $DIRS) @{
 		cd $i
