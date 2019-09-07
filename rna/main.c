@@ -37,6 +37,9 @@ main(int, char*[])
 	out	= Bfdopen(1, OWRITE);
 
 	for(n = 0; (r = Bgetrune(in)) >= 0; n++){
+		// Might as well make things uppercase while we're at it
+		r = toupperrune(r);
+	
 		if(!validdna(r))
 			sysfatal("err: rune #%ulld is invalid DNA rune", n);
 		

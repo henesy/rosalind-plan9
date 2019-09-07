@@ -3,10 +3,11 @@
 TARG=#unused
 OFILES=#unused
 
-BIN = /$objtype/bin
+BIN = /$objtype/bin/rosalind
 
 DIRS = \
 	dna \
+	rna \
 
 all:V:	all-dirs
 
@@ -22,6 +23,8 @@ demo:V:	demo-dirs
 
 %-dirs:V:
 	for(i in $DIRS) @{
+		echo
 		cd $i
 		mk $MKFLAGS $stem
+		echo
 	}

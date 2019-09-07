@@ -2,6 +2,8 @@
 
 TARG = rna
 
+BIN = /$objtype/bin/rosalind
+
 OFILES = main.$O \
 
 HFILES = #unused
